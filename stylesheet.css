@@ -1,0 +1,64 @@
+.grid {
+	display: grid;
+	grid-template-columns; 1fr 1fr 1fr 1fr;
+	grid-gap: 2vb;
+	border: 3px purple solid;
+}
+
+.headerbody {
+	background-color: White;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	border: 3px yellow solid;
+}
+
+.leftsidebar {
+	background-color: White;
+	background-image: andrespis2/lakersla.jpg;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	border: 3px yellow solid;
+	height: 250px;
+}
+
+.rightsidebar {
+	background-color: White;
+	padding: 1em;
+	grid-column-start: 3;
+	grid-column-end: span 2;
+	border: 3px yellow solid;
+}
+
+.samplegrid-a {
+	background-color: White;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	border: 3px yellow solid;
+}
+
+.samplegrid-b {
+	background-color: White;
+	padding: 1em;
+	grid-column-start: 3;
+	grid-column-end: span 2;
+	border: 3px yellow solid;
+}
+
+.samplegrid-c {
+	background-color: White;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	border: 3px yellow solid;
+}
+
+.samplegrid-d {
+	background-color: White;
+	padding: 1em;
+	grid-column-start: 3;
+	grid-column-end: span 2;
+	border: 3px yellow solid;
+}

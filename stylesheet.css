@@ -1,8 +1,9 @@
 .grid {
 	display: grid;
 	grid-template-columns; 1fr 1fr 1fr 1fr;
-	grid-gap: 2vb;
+	grid-gap: 2vh;
 	border: 3px purple solid;
+	height: 1000px;
 }
 
 .headerbody {
@@ -11,54 +12,68 @@
 	grid-column-start: 1;
 	grid-column-end: span 4;
 	border: 3px yellow solid;
+	height: 70px;
+	font-size: 50px;
 }
 
 .leftsidebar {
 	background-color: White;
-	background-image: andrespis2/lakersla.jpg;
+	background-image: url("andrespics2/lakersla.jpg");
 	padding: 1em;
 	grid-column-start: 1;
-	grid-column-end: span 2;
+	grid-column-end: span 4;
 	border: 3px yellow solid;
-	height: 250px;
+	height: 270px;
+	font-size: 40px;
 }
 
 .rightsidebar {
 	background-color: White;
-	padding: 1em;
-	grid-column-start: 3;
+	background-image: url("andrespics2/kobelmao.jpg");
+	grid-column-start: 0;
 	grid-column-end: span 2;
 	border: 3px yellow solid;
+	padding: 1em;
 }
 
 .samplegrid-a {
 	background-color: White;
-	padding: 1em;
-	grid-column-start: 1;
-	grid-column-end: span 2;
+	grid-column-start: 3;
+	grid-column-end: span 1;
 	border: 3px yellow solid;
+	padding: 1em;
 }
 
 .samplegrid-b {
 	background-color: White;
 	padding: 1em;
-	grid-column-start: 3;
-	grid-column-end: span 2;
+	grid-column-start: 4;
+	grid-column-end: span 1;
 	border: 3px yellow solid;
+	background-image: url("andrespics2/dj.gif");
+	
 }
 
-.samplegrid-c {
-	background-color: White;
-	padding: 1em;
-	grid-column-start: 1;
-	grid-column-end: span 2;
-	border: 3px yellow solid;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+	width: 90%
 }
 
-.samplegrid-d {
-	background-color: White;
-	padding: 1em;
-	grid-column-start: 3;
-	grid-column-end: span 2;
-	border: 3px yellow solid;
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+	width: 100%
+}
+
+
+li a:hover {
+    background-color: purple;
+    color: yellow;
 }
